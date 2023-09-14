@@ -38,7 +38,7 @@ if __name__ == "__main__":
     num_executions = 5
 
     for _ in range(num_executions):
-        arr = [random.randint(1, 10000000) for _ in range(10000000)]  # Array de 10.000 elementos aleatórios
+        arr = [random.randint(1, 11000) for _ in range(11000)]  # Array de 10.000 elementos aleatórios
 
         # Medir o tempo
         start_time = time.time()
